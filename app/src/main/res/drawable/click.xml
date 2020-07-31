@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/onclick1"
+        android:state_pressed="true">
+        <set xmlns:android="http://schemas.android.com/apk/res/android">
+            <alpha android:fromAlpha="0.5"
+                android:toAlpha="1.0"
+                android:duration="200" />
+        </set>
+    </item>
+
+
+    <item android:drawable="@color/onClick0"
+        android:state_pressed="false">
+        <shape android:shape="oval">
+            <corners android:radius="100dp" />
+        </shape>
+    </item>
+
+</selector>
